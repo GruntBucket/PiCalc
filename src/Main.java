@@ -27,6 +27,7 @@ public class Main extends JFrame implements ActionListener{
         System.out.println("test");
         System.out.println("test2");
         System.out.println("test3");
+        System.out.println("test4");
 
     }
     public Main() {
