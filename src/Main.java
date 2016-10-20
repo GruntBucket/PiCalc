@@ -28,7 +28,7 @@ public class Main extends JFrame implements ActionListener{
     public static void main(String[] args) {
 
         new Main().setVisible(true);
-
+        System.out.println("test");
 
 
     }
