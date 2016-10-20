@@ -20,13 +20,13 @@ public class Main extends JFrame implements ActionListener{
     public JButton stop = new JButton ("Stop");
     public JTextField field = new JTextField();
     public Timer timer = new Timer();
-    
+
     public static void main(String[] args) {
 
         new Main().setVisible(true);
         System.out.println("test");
         System.out.println("test2");
-
+        System.out.println("test3");
 
     }
     public Main() {
