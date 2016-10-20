@@ -9,9 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JTextField;
 
 public class Main extends JFrame implements ActionListener{
-    /**
-     *
-     */
+
     private static final long serialVersionUID = 1L;
     public double fraction = 1;
     public double product = 0;
@@ -22,14 +20,11 @@ public class Main extends JFrame implements ActionListener{
     public JButton stop = new JButton ("Stop");
     public JTextField field = new JTextField();
     public Timer timer = new Timer();
-
-
-
+    
     public static void main(String[] args) {
 
         new Main().setVisible(true);
         System.out.println("test");
-
 
     }
     public Main() {
@@ -77,8 +72,6 @@ public class Main extends JFrame implements ActionListener{
     public void Math(){
         if (start);{
 
-            //public Timer timer = new Timer();
-
             timer.schedule( new TimerTask() {
                 public void run() {
                     fraction = fraction + 2;
@@ -86,15 +79,8 @@ public class Main extends JFrame implements ActionListener{
                     fraction = fraction + 2;
                     product = product + (4/fraction);
                     field.setText(product+"");
-
                 }
-
-
             }, 0, 1);
-
-
-
-
         }
     }
 }
